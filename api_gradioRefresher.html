@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>53469b30e2d44cd2a45a10e0fb52c100</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># imports</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> dotenv <span class="im">import</span> load_dotenv</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> openai <span class="im">import</span> OpenAI</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> anthropic</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> Markdown, display, update_display</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> google.generativeai</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>load_dotenv()</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>openai_api_key <span class="op">=</span> os.getenv(<span class="st">&#39;OPENAI_API_KEY&#39;</span>)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>anthropic_api_key <span class="op">=</span> os.getenv(<span class="st">&#39;ANTHROPIC_API_KEY&#39;</span>)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>google_api_key <span class="op">=</span> os.getenv(<span class="st">&#39;GOOGLE_API_KEY&#39;</span>)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> openai_api_key:</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;OpenAI API Key exists and begins </span><span class="sc">{</span>openai_api_key[:<span class="dv">8</span>]<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;OpenAI API Key not set&quot;</span>)</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> anthropic_api_key:</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Anthropic API Key exists and begins </span><span class="sc">{</span>anthropic_api_key[:<span class="dv">7</span>]<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Anthropic API Key not set&quot;</span>)</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> google_api_key:</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Google API Key exists and begins </span><span class="sc">{</span>google_api_key[:<span class="dv">8</span>]<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Google API Key not set&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>OpenAI API Key exists and begins sk-proj-
+Anthropic API Key exists and begins sk-ant-
+Google API Key exists and begins AIzaSyDX
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Connect to OpenAI, Anthropic and Google</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># All 3 APIs are similar</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Having problems with API files? You can use openai = OpenAI(api_key=&quot;your-key-here&quot;) and same for claude</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Having problems with Google Gemini setup? Then just skip Gemini; you&#39;ll get all the experience you need from GPT and Claude.</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>openai <span class="op">=</span> OpenAI()</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co"># claude = anthropic.Anthropic() </span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co"># in case if you are using claude API , uncomment the same</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>google.generativeai.configure()</span></code></pre></div>
+</div>
+<section id="asking-llms-to-tell-a-joke" class="cell markdown">
+<h5>Asking LLMs to tell a joke</h5>
+<p>It turns out that LLMs don't do a great job of telling jokes! Let's
+compare a few models. Later we will be putting LLMs to better use!</p>
+<p>What information is included in the API Typically we'll pass to the
+API:</p>
+<p>The name of the model that should be used</p>
+<p>A system message that gives overall context for the role the LLM is
+playing</p>
+<p>A user message that provides the actual prompt</p>
+<p>There are other parameters that can be used, including temperature
+which is typically between 0 and 1; higher for more random output; lower
+for more focused and deterministic.</p>
+</section>
+<div class="cell code" data-execution_count="18">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>system_message <span class="op">=</span> <span class="st">&quot;You are an assistant that is great at telling jokes&quot;</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>user_prompt <span class="op">=</span> <span class="st">&quot;Tell a light-hearted joke for an audience of Data Scientists&quot;</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="19">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>prompts <span class="op">=</span> [</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    {<span class="st">&quot;role&quot;</span>: <span class="st">&quot;system&quot;</span>, <span class="st">&quot;content&quot;</span>: system_message},</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    {<span class="st">&quot;role&quot;</span>: <span class="st">&quot;user&quot;</span>, <span class="st">&quot;content&quot;</span>: user_prompt}</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  ]</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co"># put prompts in the list</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="20">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># GPT-3.5-Turbo</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>completion <span class="op">=</span> openai.chat.completions.create(model<span class="op">=</span><span class="st">&#39;gpt-3.5-turbo&#39;</span>, messages<span class="op">=</span>prompts)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(completion.choices[<span class="dv">0</span>].message.content)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Why do data scientists prefer dark chocolate?
+
+Because they like their data to be unambiguous!
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># GPT-4o-mini</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Temperature setting controls creativity</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>completion <span class="op">=</span> openai.chat.completions.create(</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    model<span class="op">=</span><span class="st">&#39;gpt-4o-mini&#39;</span>,</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    messages<span class="op">=</span>prompts,</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    temperature<span class="op">=</span><span class="fl">0.7</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(completion.choices[<span class="dv">0</span>].message.content)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Why did the data scientist break up with the statistician?
+
+Because she found him too mean!
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="22">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># GPT-4o</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>completion <span class="op">=</span> openai.chat.completions.create(</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>    model<span class="op">=</span><span class="st">&#39;gpt-4o&#39;</span>,</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>    messages<span class="op">=</span>prompts,</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>    temperature<span class="op">=</span><span class="fl">0.4</span></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(completion.choices[<span class="dv">0</span>].message.content)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Why did the data scientist bring a ladder to work?
+
+Because they heard the project was going to the next level!
+</code></pre>
+</div>
+</div>
+<section id="run-if-this-using-claude-anthropic-api"
+class="cell markdown">
+<h4>Run if this using Claude Anthropic API</h4>
+</section>
+<div class="cell code" data-execution_count="23">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Claude 3.5 Sonnet</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="co"># API needs system message provided separately from user prompt</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Also adding max_tokens</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>message <span class="op">=</span> claude.messages.create(</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>    model<span class="op">=</span><span class="st">&quot;claude-3-5-sonnet-20240620&quot;</span>,</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>    max_tokens<span class="op">=</span><span class="dv">200</span>,</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>    temperature<span class="op">=</span><span class="fl">0.7</span>,</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>    system<span class="op">=</span>system_message,</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>    messages<span class="op">=</span>[</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>        {<span class="st">&quot;role&quot;</span>: <span class="st">&quot;user&quot;</span>, <span class="st">&quot;content&quot;</span>: user_prompt},</span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>    ],</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(message.content[<span class="dv">0</span>].text)</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Claude 3.5 Sonnet again</span></span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Now let&#39;s add in streaming back results</span></span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a>result <span class="op">=</span> claude.messages.stream(</span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>    model<span class="op">=</span><span class="st">&quot;claude-3-5-sonnet-20240620&quot;</span>,</span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a>    max_tokens<span class="op">=</span><span class="dv">200</span>,</span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a>    temperature<span class="op">=</span><span class="fl">0.7</span>,</span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>    system<span class="op">=</span>system_message,</span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a>    messages<span class="op">=</span>[</span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a>        {<span class="st">&quot;role&quot;</span>: <span class="st">&quot;user&quot;</span>, <span class="st">&quot;content&quot;</span>: user_prompt},</span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a>    ],</span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> result <span class="im">as</span> stream:</span>
+<span id="cb13-33"><a href="#cb13-33" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> text <span class="kw">in</span> stream.text_stream:</span>
+<span id="cb13-34"><a href="#cb13-34" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(text, end<span class="op">=</span><span class="st">&quot;&quot;</span>, flush<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output error" data-ename="NameError"
+data-evalue="name &#39;claude&#39; is not defined">
+<pre><code>---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Cell In[23], line 5
+      1 # Claude 3.5 Sonnet
+      2 # API needs system message provided separately from user prompt
+      3 # Also adding max_tokens
+----&gt; 5 message = claude.messages.create(
+      6     model=&quot;claude-3-5-sonnet-20240620&quot;,
+      7     max_tokens=200,
+      8     temperature=0.7,
+      9     system=system_message,
+     10     messages=[
+     11         {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: user_prompt},
+     12     ],
+     13 )
+     15 print(message.content[0].text)
+     19 # Claude 3.5 Sonnet again
+     20 # Now let&#39;s add in streaming back results
+
+NameError: name &#39;claude&#39; is not defined
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="24">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># The API for Gemini has a slightly different structure</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>gemini <span class="op">=</span> google.generativeai.GenerativeModel(</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>    model_name<span class="op">=</span><span class="st">&#39;gemini-1.5-flash&#39;</span>,</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>    system_instruction<span class="op">=</span>system_message</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>response <span class="op">=</span> gemini.generate_content(user_prompt)</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(response.text)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Why was the data scientist sad?  Because they didn&#39;t get arrays.  (Get it?  A-rays... like sun rays...  never mind.)
+
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="25">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># To be serious! GPT-4o-mini with the original question</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>prompts <span class="op">=</span> [</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>    {<span class="st">&quot;role&quot;</span>: <span class="st">&quot;system&quot;</span>, <span class="st">&quot;content&quot;</span>: <span class="st">&quot;You are a helpful assistant that responds in Markdown&quot;</span>},</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>    {<span class="st">&quot;role&quot;</span>: <span class="st">&quot;user&quot;</span>, <span class="st">&quot;content&quot;</span>: <span class="st">&quot;How do I decide if a business problem is suitable for an LLM solution? Please respond in Markdown.&quot;</span>}</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>  ]</span></code></pre></div>
+</div>
+<section id="what-if-we-want-to-stream-results-in-markdown-"
+class="cell markdown">
+<h4>What if we want to stream results in markdown ?</h4>
+</section>
+<div class="cell code" data-execution_count="26">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Have it stream back results in markdown</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>stream <span class="op">=</span> openai.chat.completions.create(</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>    model<span class="op">=</span><span class="st">&#39;gpt-4o&#39;</span>,</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>    messages<span class="op">=</span>prompts,</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>    temperature<span class="op">=</span><span class="fl">0.7</span>,</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>    stream<span class="op">=</span><span class="va">True</span></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>reply <span class="op">=</span> <span class="st">&quot;&quot;</span></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>display_handle <span class="op">=</span> display(Markdown(<span class="st">&quot;&quot;</span>), display_id<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> chunk <span class="kw">in</span> stream:</span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>    reply <span class="op">+=</span> chunk.choices[<span class="dv">0</span>].delta.content <span class="kw">or</span> <span class="st">&#39;&#39;</span></span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a>    reply <span class="op">=</span> reply.replace(<span class="st">&quot;```&quot;</span>,<span class="st">&quot;&quot;</span>).replace(<span class="st">&quot;markdown&quot;</span>,<span class="st">&quot;&quot;</span>)</span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a>    update_display(Markdown(reply), display_id<span class="op">=</span>display_handle.display_id)</span></code></pre></div>
+<div class="output display_data">
+<pre><code>&lt;IPython.core.display.Markdown object&gt;</code></pre>
+</div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<section id="if-using-gradio-ui" class="cell markdown">
+<h4>If using gradio UI</h4>
+</section>
+<div class="cell code" data-execution_count="27">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> bs4 <span class="im">import</span> BeautifulSoup</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> typing <span class="im">import</span> List</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> dotenv <span class="im">import</span> load_dotenv</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> openai <span class="im">import</span> OpenAI</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> google.generativeai</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> anthropic</span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> gradio <span class="im">as</span> gr</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="28">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># A generic system message - no more snarky adversarial AIs!</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>system_message <span class="op">=</span> <span class="st">&quot;You are a physicist. You are like Sheldon Cooper from Big Bang Theory.&quot;</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="29">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s wrap a call to GPT-4o-mini in a simple function</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> message_gpt(prompt):</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>    messages <span class="op">=</span> [</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>        {<span class="st">&quot;role&quot;</span>: <span class="st">&quot;system&quot;</span>, <span class="st">&quot;content&quot;</span>: system_message},</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>        {<span class="st">&quot;role&quot;</span>: <span class="st">&quot;user&quot;</span>, <span class="st">&quot;content&quot;</span>: prompt}</span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>      ]</span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>    completion <span class="op">=</span> openai.chat.completions.create(</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>        model<span class="op">=</span><span class="st">&#39;gpt-4o-mini&#39;</span>,</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>        messages<span class="op">=</span>messages,</span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> completion.choices[<span class="dv">0</span>].message.content</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="30">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>message_gpt(<span class="st">&quot;What is physics ? Is it the one with frogs ? &quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="30">
+<pre><code>&quot;No, physics is not specifically about frogs. Physics is a branch of science that deals with the study of matter, energy, and the fundamental forces of nature. It aims to understand how the universe behaves, from the smallest subatomic particles to the largest galaxies.\n\nFrogs might be studied within the realm of biology, particularly in areas such as physiology or ecology, but they don&#39;t form the core focus of physics. However, one could study aspects related to frogs in a physics context, such as the biomechanics of how they jump or the acoustics of their croaking. In summary, while there&#39;s an interface between physics and biology, especially in fields like biophysics, physics itself is much broader and doesn&#39;t revolve around any particular organism. If you have more specific questions about physics or any related topics, feel free to ask!&quot;</code></pre>
+</div>
+</div>
+<section id="user-interface-time" class="cell markdown">
+<h5>User interface time</h5>
+</section>
+<div class="cell code" data-execution_count="31">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># here&#39;s a simple function</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> shout(text):</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Shout has been called with input </span><span class="sc">{</span>text<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> text.upper()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="32">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>shout(<span class="st">&quot;hello&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Shout has been called with input hello
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="32">
+<pre><code>&#39;HELLO&#39;</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="33">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Adding share=True means that it can be accessed publically</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a><span class="co"># A more permanent hosting is available using a platform called Spaces from HuggingFace, which we will touch on next week</span></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>gr.Interface(fn<span class="op">=</span>shout, inputs<span class="op">=</span><span class="st">&quot;textbox&quot;</span>, outputs<span class="op">=</span><span class="st">&quot;textbox&quot;</span>, flagging_mode<span class="op">=</span><span class="st">&quot;never&quot;</span>).launch(share<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>* Running on local URL:  http://127.0.0.1:7860
+Shout has been called with input jdnsaojdnsajdnsajndjasnjds
+
+Could not create share link. Missing file: c:\Users\31837\AppData\Local\Programs\Python\Python311\Lib\site-packages\gradio\frpc_windows_amd64_v0.3. 
+
+Please check your internet connection. This can happen if your antivirus software blocks the download of this file. You can install manually by following these steps: 
+
+1. Download this file: https://cdn-media.huggingface.co/frpc-gradio-0.3/frpc_windows_amd64.exe
+2. Rename the downloaded file to: frpc_windows_amd64_v0.3
+3. Move the file to this location: c:\Users\31837\AppData\Local\Programs\Python\Python311\Lib\site-packages\gradio
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>
+</code></pre>
+</div>
+<div class="output display_data">
+<div><iframe src="http://127.0.0.1:7860/" width="100%" height="500" allow="autoplay; camera; microphone; clipboard-read; clipboard-write;" frameborder="0" allowfullscreen></iframe></div>
+</div>
+<div class="output execute_result" data-execution_count="33">
+<pre><code></code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="34">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Adding inbrowser=True opens up a new browser window automatically</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>gr.Interface(fn<span class="op">=</span>shout, inputs<span class="op">=</span><span class="st">&quot;textbox&quot;</span>, </span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>             outputs<span class="op">=</span><span class="st">&quot;textbox&quot;</span>, </span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>             flagging_mode<span class="op">=</span><span class="st">&quot;never&quot;</span>).launch(inbrowser<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>* Running on local URL:  http://127.0.0.1:7861
+
+To create a public link, set `share=True` in `launch()`.
+</code></pre>
+</div>
+<div class="output display_data">
+<div><iframe src="http://127.0.0.1:7861/" width="100%" height="500" allow="autoplay; camera; microphone; clipboard-read; clipboard-write;" frameborder="0" allowfullscreen></iframe></div>
+</div>
+<div class="output execute_result" data-execution_count="34">
+<pre><code></code></pre>
+</div>
+</div>
+<section id="forcing-dark-mode" class="cell markdown">
+<h4>Forcing dark mode</h4>
+<p>Gradio appears in light mode or dark mode depending on the settings
+of the browser and computer. There is a way to force gradio to appear in
+dark mode, but Gradio recommends against this as it should be a user
+preference (particularly for accessibility reasons). But if you wish to
+force dark mode for your screens, below is how to do it.</p>
+</section>
+<div class="cell code" data-execution_count="35">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define this variable and then pass js=force_dark_mode when creating the Interface</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>force_dark_mode <span class="op">=</span> <span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a><span class="st">function refresh() {</span></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a><span class="st">    const url = new URL(window.location);</span></span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a><span class="st">    if (url.searchParams.get(&#39;__theme&#39;) !== &#39;dark&#39;) {</span></span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a><span class="st">        url.searchParams.set(&#39;__theme&#39;, &#39;dark&#39;);</span></span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a><span class="st">        window.location.href = url.href;</span></span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a><span class="st">}</span></span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a>gr.Interface(fn<span class="op">=</span>shout, inputs<span class="op">=</span><span class="st">&quot;textbox&quot;</span>, outputs<span class="op">=</span><span class="st">&quot;textbox&quot;</span>, flagging_mode<span class="op">=</span><span class="st">&quot;never&quot;</span>, js<span class="op">=</span>force_dark_mode).launch()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>* Running on local URL:  http://127.0.0.1:7862
+
+To create a public link, set `share=True` in `launch()`.
+</code></pre>
+</div>
+<div class="output display_data">
+<div><iframe src="http://127.0.0.1:7862/" width="100%" height="500" allow="autoplay; camera; microphone; clipboard-read; clipboard-write;" frameborder="0" allowfullscreen></iframe></div>
+</div>
+<div class="output execute_result" data-execution_count="35">
+<pre><code></code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="36">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Inputs and Outputs</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>view <span class="op">=</span> gr.Interface(</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>    fn<span class="op">=</span>shout,</span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>    inputs<span class="op">=</span>[gr.Textbox(label<span class="op">=</span><span class="st">&quot;Your message:&quot;</span>, lines<span class="op">=</span><span class="dv">6</span>)],</span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a>    outputs<span class="op">=</span>[gr.Textbox(label<span class="op">=</span><span class="st">&quot;Response:&quot;</span>, lines<span class="op">=</span><span class="dv">8</span>)],</span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a>    flagging_mode<span class="op">=</span><span class="st">&quot;never&quot;</span></span>
+<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb40-9"><a href="#cb40-9" aria-hidden="true" tabindex="-1"></a>view.launch()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>* Running on local URL:  http://127.0.0.1:7863
+
+To create a public link, set `share=True` in `launch()`.
+</code></pre>
+</div>
+<div class="output display_data">
+<div><iframe src="http://127.0.0.1:7863/" width="100%" height="500" allow="autoplay; camera; microphone; clipboard-read; clipboard-write;" frameborder="0" allowfullscreen></iframe></div>
+</div>
+<div class="output execute_result" data-execution_count="36">
+<pre><code></code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="37">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="co"># And now - changing the function from &quot;shout&quot; to &quot;message_gpt&quot;</span></span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>view <span class="op">=</span> gr.Interface(</span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>    fn<span class="op">=</span>message_gpt,</span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>    inputs<span class="op">=</span>[gr.Textbox(label<span class="op">=</span><span class="st">&quot;Your message:&quot;</span>, lines<span class="op">=</span><span class="dv">6</span>)],</span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a>    outputs<span class="op">=</span>[gr.Textbox(label<span class="op">=</span><span class="st">&quot;Response:&quot;</span>, lines<span class="op">=</span><span class="dv">8</span>)],</span>
+<span id="cb43-7"><a href="#cb43-7" aria-hidden="true" tabindex="-1"></a>    flagging_mode<span class="op">=</span><span class="st">&quot;never&quot;</span></span>
+<span id="cb43-8"><a href="#cb43-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb43-9"><a href="#cb43-9" aria-hidden="true" tabindex="-1"></a>view.launch()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>* Running on local URL:  http://127.0.0.1:7864
+
+To create a public link, set `share=True` in `launch()`.
+</code></pre>
+</div>
+<div class="output display_data">
+<div><iframe src="http://127.0.0.1:7864/" width="100%" height="500" allow="autoplay; camera; microphone; clipboard-read; clipboard-write;" frameborder="0" allowfullscreen></iframe></div>
+</div>
+<div class="output execute_result" data-execution_count="37">
+<pre><code></code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="38">
+<div class="sourceCode" id="cb46"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s use Markdown</span></span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Are you wondering why it makes any difference to set system_message when it&#39;s not referred to in the code below it?</span></span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a><span class="co"># I&#39;m taking advantage of system_message being a global variable, used back in the message_gpt function (go take a look)</span></span>
+<span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Not a great software engineering practice, but quite sommon during Jupyter Lab R&amp;D!</span></span>
+<span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-6"><a href="#cb46-6" aria-hidden="true" tabindex="-1"></a>system_message <span class="op">=</span> <span class="st">&quot;You are a helpful assistant that responds in markdown&quot;</span></span>
+<span id="cb46-7"><a href="#cb46-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-8"><a href="#cb46-8" aria-hidden="true" tabindex="-1"></a>view <span class="op">=</span> gr.Interface(</span>
+<span id="cb46-9"><a href="#cb46-9" aria-hidden="true" tabindex="-1"></a>    fn<span class="op">=</span>message_gpt,</span>
+<span id="cb46-10"><a href="#cb46-10" aria-hidden="true" tabindex="-1"></a>    inputs<span class="op">=</span>[gr.Textbox(label<span class="op">=</span><span class="st">&quot;Your message:&quot;</span>)],</span>
+<span id="cb46-11"><a href="#cb46-11" aria-hidden="true" tabindex="-1"></a>    outputs<span class="op">=</span>[gr.Markdown(label<span class="op">=</span><span class="st">&quot;Response:&quot;</span>)],</span>
+<span id="cb46-12"><a href="#cb46-12" aria-hidden="true" tabindex="-1"></a>    flagging_mode<span class="op">=</span><span class="st">&quot;never&quot;</span></span>
+<span id="cb46-13"><a href="#cb46-13" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb46-14"><a href="#cb46-14" aria-hidden="true" tabindex="-1"></a>view.launch()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>* Running on local URL:  http://127.0.0.1:7865
+
+To create a public link, set `share=True` in `launch()`.
+</code></pre>
+</div>
+<div class="output display_data">
+<div><iframe src="http://127.0.0.1:7865/" width="100%" height="500" allow="autoplay; camera; microphone; clipboard-read; clipboard-write;" frameborder="0" allowfullscreen></iframe></div>
+</div>
+<div class="output execute_result" data-execution_count="38">
+<pre><code></code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="39">
+<div class="sourceCode" id="cb49"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s create a call that streams back results</span></span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a><span class="co"># If you&#39;d like a refresher on Generators (the &quot;yield&quot; keyword),</span></span>
+<span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Please take a look at the Intermediate Python notebook in week1 folder.</span></span>
+<span id="cb49-4"><a href="#cb49-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb49-5"><a href="#cb49-5" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> stream_gpt(prompt):</span>
+<span id="cb49-6"><a href="#cb49-6" aria-hidden="true" tabindex="-1"></a>    messages <span class="op">=</span> [</span>
+<span id="cb49-7"><a href="#cb49-7" aria-hidden="true" tabindex="-1"></a>        {<span class="st">&quot;role&quot;</span>: <span class="st">&quot;system&quot;</span>, <span class="st">&quot;content&quot;</span>: system_message},</span>
+<span id="cb49-8"><a href="#cb49-8" aria-hidden="true" tabindex="-1"></a>        {<span class="st">&quot;role&quot;</span>: <span class="st">&quot;user&quot;</span>, <span class="st">&quot;content&quot;</span>: prompt}</span>
+<span id="cb49-9"><a href="#cb49-9" aria-hidden="true" tabindex="-1"></a>      ]</span>
+<span id="cb49-10"><a href="#cb49-10" aria-hidden="true" tabindex="-1"></a>    stream <span class="op">=</span> openai.chat.completions.create(</span>
+<span id="cb49-11"><a href="#cb49-11" aria-hidden="true" tabindex="-1"></a>        model<span class="op">=</span><span class="st">&#39;gpt-4o-mini&#39;</span>,</span>
+<span id="cb49-12"><a href="#cb49-12" aria-hidden="true" tabindex="-1"></a>        messages<span class="op">=</span>messages,</span>
+<span id="cb49-13"><a href="#cb49-13" aria-hidden="true" tabindex="-1"></a>        stream<span class="op">=</span><span class="va">True</span></span>
+<span id="cb49-14"><a href="#cb49-14" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb49-15"><a href="#cb49-15" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> <span class="st">&quot;&quot;</span></span>
+<span id="cb49-16"><a href="#cb49-16" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> chunk <span class="kw">in</span> stream:</span>
+<span id="cb49-17"><a href="#cb49-17" aria-hidden="true" tabindex="-1"></a>        result <span class="op">+=</span> chunk.choices[<span class="dv">0</span>].delta.content <span class="kw">or</span> <span class="st">&quot;&quot;</span></span>
+<span id="cb49-18"><a href="#cb49-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">yield</span> result</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="40">
+<div class="sourceCode" id="cb50"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>view <span class="op">=</span> gr.Interface(</span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>    fn<span class="op">=</span>stream_gpt,</span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>    inputs<span class="op">=</span>[gr.Textbox(label<span class="op">=</span><span class="st">&quot;Your message:&quot;</span>)],</span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>    outputs<span class="op">=</span>[gr.Markdown(label<span class="op">=</span><span class="st">&quot;Response:&quot;</span>)],</span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a>    flagging_mode<span class="op">=</span><span class="st">&quot;never&quot;</span></span>
+<span id="cb50-6"><a href="#cb50-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb50-7"><a href="#cb50-7" aria-hidden="true" tabindex="-1"></a>view.launch()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>* Running on local URL:  http://127.0.0.1:7866
+
+To create a public link, set `share=True` in `launch()`.
+</code></pre>
+</div>
+<div class="output display_data">
+<div><iframe src="http://127.0.0.1:7866/" width="100%" height="500" allow="autoplay; camera; microphone; clipboard-read; clipboard-write;" frameborder="0" allowfullscreen></iframe></div>
+</div>
+<div class="output execute_result" data-execution_count="40">
+<pre><code></code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="41">
+<div class="sourceCode" id="cb53"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> stream_model(prompt, model):</span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> model<span class="op">==</span><span class="st">&quot;GPT&quot;</span>:</span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a>        result <span class="op">=</span> stream_gpt(prompt)</span>
+<span id="cb53-4"><a href="#cb53-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> model<span class="op">==</span><span class="st">&quot;Claude&quot;</span>:</span>
+<span id="cb53-5"><a href="#cb53-5" aria-hidden="true" tabindex="-1"></a>        result <span class="op">=</span> stream_claude(prompt) <span class="co"># in case if using claude</span></span>
+<span id="cb53-6"><a href="#cb53-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb53-7"><a href="#cb53-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">raise</span> <span class="pp">ValueError</span>(<span class="st">&quot;Unknown model&quot;</span>)</span>
+<span id="cb53-8"><a href="#cb53-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">yield</span> <span class="cf">from</span> result</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="42">
+<div class="sourceCode" id="cb54"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a>view <span class="op">=</span> gr.Interface(</span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>    fn<span class="op">=</span>stream_model,</span>
+<span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a>    inputs<span class="op">=</span>[gr.Textbox(label<span class="op">=</span><span class="st">&quot;Your message:&quot;</span>), gr.Dropdown([<span class="st">&quot;GPT&quot;</span>, <span class="st">&quot;Claude&quot;</span>], label<span class="op">=</span><span class="st">&quot;Select model&quot;</span>, value<span class="op">=</span><span class="st">&quot;GPT&quot;</span>)],</span>
+<span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a>    outputs<span class="op">=</span>[gr.Markdown(label<span class="op">=</span><span class="st">&quot;Response:&quot;</span>)],</span>
+<span id="cb54-5"><a href="#cb54-5" aria-hidden="true" tabindex="-1"></a>    flagging_mode<span class="op">=</span><span class="st">&quot;never&quot;</span></span>
+<span id="cb54-6"><a href="#cb54-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb54-7"><a href="#cb54-7" aria-hidden="true" tabindex="-1"></a>view.launch()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>* Running on local URL:  http://127.0.0.1:7867
+
+To create a public link, set `share=True` in `launch()`.
+</code></pre>
+</div>
+<div class="output display_data">
+<div><iframe src="http://127.0.0.1:7867/" width="100%" height="500" allow="autoplay; camera; microphone; clipboard-read; clipboard-write;" frameborder="0" allowfullscreen></iframe></div>
+</div>
+<div class="output execute_result" data-execution_count="42">
+<pre><code></code></pre>
+</div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb57"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="45">
+<div class="sourceCode" id="cb58"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="co"># A class to represent a Webpage</span></span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Website:</span>
+<span id="cb58-4"><a href="#cb58-4" aria-hidden="true" tabindex="-1"></a>    url: <span class="bu">str</span></span>
+<span id="cb58-5"><a href="#cb58-5" aria-hidden="true" tabindex="-1"></a>    title: <span class="bu">str</span></span>
+<span id="cb58-6"><a href="#cb58-6" aria-hidden="true" tabindex="-1"></a>    text: <span class="bu">str</span></span>
+<span id="cb58-7"><a href="#cb58-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-8"><a href="#cb58-8" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, url):</span>
+<span id="cb58-9"><a href="#cb58-9" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.url <span class="op">=</span> url</span>
+<span id="cb58-10"><a href="#cb58-10" aria-hidden="true" tabindex="-1"></a>        response <span class="op">=</span> requests.get(url)</span>
+<span id="cb58-11"><a href="#cb58-11" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.body <span class="op">=</span> response.content</span>
+<span id="cb58-12"><a href="#cb58-12" aria-hidden="true" tabindex="-1"></a>        soup <span class="op">=</span> BeautifulSoup(<span class="va">self</span>.body, <span class="st">&#39;html.parser&#39;</span>)</span>
+<span id="cb58-13"><a href="#cb58-13" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.title <span class="op">=</span> soup.title.string <span class="cf">if</span> soup.title <span class="cf">else</span> <span class="st">&quot;No title found&quot;</span></span>
+<span id="cb58-14"><a href="#cb58-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> irrelevant <span class="kw">in</span> soup.body([<span class="st">&quot;script&quot;</span>, <span class="st">&quot;style&quot;</span>, <span class="st">&quot;img&quot;</span>, <span class="st">&quot;input&quot;</span>]):</span>
+<span id="cb58-15"><a href="#cb58-15" aria-hidden="true" tabindex="-1"></a>            irrelevant.decompose()</span>
+<span id="cb58-16"><a href="#cb58-16" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.text <span class="op">=</span> soup.body.get_text(separator<span class="op">=</span><span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>, strip<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb58-17"><a href="#cb58-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-18"><a href="#cb58-18" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> get_contents(<span class="va">self</span>):</span>
+<span id="cb58-19"><a href="#cb58-19" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="ss">f&quot;Webpage Title:</span><span class="ch">\n</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>title<span class="sc">}</span><span class="ch">\n</span><span class="ss">Webpage Contents:</span><span class="ch">\n</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>text<span class="sc">}</span><span class="ch">\n\n</span><span class="ss">&quot;</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="46">
+<div class="sourceCode" id="cb59"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a><span class="co"># With massive thanks to Bill G. who noticed that a prior version of this had a bug! Now fixed.</span></span>
+<span id="cb59-2"><a href="#cb59-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb59-3"><a href="#cb59-3" aria-hidden="true" tabindex="-1"></a>system_message <span class="op">=</span> <span class="st">&quot;You are an assistant that analyzes the contents of a company website landing page </span><span class="ch">\</span></span>
+<span id="cb59-4"><a href="#cb59-4" aria-hidden="true" tabindex="-1"></a><span class="st">and creates a short brochure about the company for prospective customers, investors and recruits. Respond in markdown.&quot;</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="48">
+<div class="sourceCode" id="cb60"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> stream_brochure(company_name, url, model):</span>
+<span id="cb60-2"><a href="#cb60-2" aria-hidden="true" tabindex="-1"></a>    prompt <span class="op">=</span> <span class="ss">f&quot;Please generate a company brochure for </span><span class="sc">{</span>company_name<span class="sc">}</span><span class="ss">. Here is their landing page:</span><span class="ch">\n</span><span class="ss">&quot;</span></span>
+<span id="cb60-3"><a href="#cb60-3" aria-hidden="true" tabindex="-1"></a>    prompt <span class="op">+=</span> Website(url).get_contents()</span>
+<span id="cb60-4"><a href="#cb60-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> model<span class="op">==</span><span class="st">&quot;GPT&quot;</span>:</span>
+<span id="cb60-5"><a href="#cb60-5" aria-hidden="true" tabindex="-1"></a>        result <span class="op">=</span> stream_gpt(prompt)</span>
+<span id="cb60-6"><a href="#cb60-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> model<span class="op">==</span><span class="st">&quot;Claude&quot;</span>:</span>
+<span id="cb60-7"><a href="#cb60-7" aria-hidden="true" tabindex="-1"></a>        result <span class="op">=</span> stream_claude(prompt)</span>
+<span id="cb60-8"><a href="#cb60-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb60-9"><a href="#cb60-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">raise</span> <span class="pp">ValueError</span>(<span class="st">&quot;Unknown model&quot;</span>)</span>
+<span id="cb60-10"><a href="#cb60-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">yield</span> <span class="cf">from</span> result</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="49">
+<div class="sourceCode" id="cb61"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a>view <span class="op">=</span> gr.Interface(</span>
+<span id="cb61-2"><a href="#cb61-2" aria-hidden="true" tabindex="-1"></a>    fn<span class="op">=</span>stream_brochure,</span>
+<span id="cb61-3"><a href="#cb61-3" aria-hidden="true" tabindex="-1"></a>    inputs<span class="op">=</span>[</span>
+<span id="cb61-4"><a href="#cb61-4" aria-hidden="true" tabindex="-1"></a>        gr.Textbox(label<span class="op">=</span><span class="st">&quot;Company name:&quot;</span>),</span>
+<span id="cb61-5"><a href="#cb61-5" aria-hidden="true" tabindex="-1"></a>        gr.Textbox(label<span class="op">=</span><span class="st">&quot;Landing page URL including http:// or https://&quot;</span>),</span>
+<span id="cb61-6"><a href="#cb61-6" aria-hidden="true" tabindex="-1"></a>        gr.Dropdown([<span class="st">&quot;GPT&quot;</span>, <span class="st">&quot;Claude&quot;</span>], label<span class="op">=</span><span class="st">&quot;Select model&quot;</span>)], <span class="co"># in case if using claude</span></span>
+<span id="cb61-7"><a href="#cb61-7" aria-hidden="true" tabindex="-1"></a>    outputs<span class="op">=</span>[gr.Markdown(label<span class="op">=</span><span class="st">&quot;Brochure:&quot;</span>)],</span>
+<span id="cb61-8"><a href="#cb61-8" aria-hidden="true" tabindex="-1"></a>    flagging_mode<span class="op">=</span><span class="st">&quot;never&quot;</span></span>
+<span id="cb61-9"><a href="#cb61-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb61-10"><a href="#cb61-10" aria-hidden="true" tabindex="-1"></a>view.launch()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>* Running on local URL:  http://127.0.0.1:7868
+
+To create a public link, set `share=True` in `launch()`.
+</code></pre>
+</div>
+<div class="output display_data">
+<div><iframe src="http://127.0.0.1:7868/" width="100%" height="500" allow="autoplay; camera; microphone; clipboard-read; clipboard-write;" frameborder="0" allowfullscreen></iframe></div>
+</div>
+<div class="output execute_result" data-execution_count="49">
+<pre><code></code></pre>
+</div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb64"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
